@@ -1,0 +1,95 @@
+/* getA */
+
+a {
+    color: #ffc107;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #ffc107 !important;
+}
+
+
+/* getB */
+
+body {
+    background-color: whitesmoke;
+    color: #212529;
+}
+
+.borderBottom {
+    border-bottom: #FFCD4B 5px solid;
+}
+
+.borderTop {
+    border-top: #FFCD4B 5px solid;
+}
+
+
+/* getC */
+
+.carousel-item {
+    /* height: 100vh;
+    min-height: 350px; */
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* getF */
+.fi-padding{
+    padding-bottom: 3px !important;
+}
+
+/* getP */
+
+.persada {
+    background-color: #a91822;
+    color: #ffbb00;
+}
+
+.persada-button {
+    border-radius: 50px;
+    width: 100%;
+}
+
+.price{
+    margin: -66% 0.5rem 0 !important;
+}
+
+
+/* getM */
+
+@media only screen and (min-width: 280px) and (max-width: 786px) {
+    .hideOnMobile {
+        display: none;
+    }
+    .navbar-toggler {
+        max-width: 100% !important;
+        min-width: 280px !important;
+        width: 100%;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        background-color: #ffcd4b;
+    }
+
+    .nav-pills .nav-link {
+        border-radius: 20px;
+        padding: 0.5rem 1rem;
+        width: 95%;
+      }
+
+    .col-sm {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 786px) and (max-width: 2300px) {
+    .hideOnPc {
+        display: none;
+    }
+}
